@@ -1,0 +1,44 @@
+{
+  "site": "naadunalam-redesign",
+  "originalUrl": "https://naadunalam.fastfilings.in/",
+  "originalDomain": "naadunalam.fastfilings.in",
+  "siteType": "multi-page",
+  "industry": "heritage organic-food marketplace",
+  "autoDeploy": false,
+  "homePageLocked": false,
+  "fonts": {
+    "logoFont": "Bricolage Grotesque",
+    "allowed": ["Bricolage Grotesque", "Outfit", "Noto Sans Tamil"],
+    "maxFamilies": 3
+  },
+  "colours": {
+    "brand": ["#7E3814", "#F5B335"],
+    "maxBrandColours": 2
+  },
+  "header": { "behaviour": "sticky", "navMinPx": 16 },
+  "layout": {
+    "maxSideMarginPx": 56,
+    "maxSectionPaddingPx": 96,
+    "maxFooterVh": 0.4,
+    "footerFitsWithLastSection": true,
+    "sectionsFitOneScreen": true,
+    "exemptSelectors": [".nn-long"]
+  },
+  "content": { "copy": "short", "allowEyebrows": true, "allowNumberLabels": true },
+  "motion": { "scrollAnimations": "rich", "allowPinnedSections": false, "allowCursorEffects": false, "heroVideoControls": false },
+  "images": { "allowGeneratedImages": false },
+  "design": {
+    "primary": "Hungry Tiger reference: textured earth field, giant condensed gold display type, pill nav around centred logo, dotted rules",
+    "supporting": ["Tamil heritage", "Panchabhootham + Ezhu Thalaimurai photography"],
+    "layout": ["one-screen frames", "centred hero object", "3D ring", "concave 3D arc"],
+    "interaction": ["Lenis smooth scroll", "Three.js hero", "GSAP 3D word flips", "scroll-scrubbed 3D turns", "hover tilt"]
+  },
+  "notes": [
+    "User (2026-11-19): reference site look is what they need exactly; 3D animations across the whole site; every section must fit the screen; inner pages must be perfectly aligned.",
+    "Client brief: homepage visuals = Panchabhootham + Thaayanbu + Naadu Nalam + seven generations (தாய் தந்தை … பரன் பரை) of Tamil family, copyright-free.",
+    "Original Store Listing has two stores: Naadu Nalam and Thaayanbu.",
+    "Photos are Pexels/Unsplash licence (public/images/CREDITS.md); swap one-for-one with commissioned shots for exclusivity.",
+    "User (2026-11-19, later): hero must stay neat and minimal. Current hero = green field (#365F3F) split: text left, copper Three.js arch with the farmer photo + five element orbs right (user's own reference screenshot). Top strip forest green, main header beige (nn-paper) with logo in the left corner then the menu.",
+    "User (2026-11-19): shop grid must fit the screen with no half-cut row. Shop section is a one-screen frame: filter bar + whole rows only (rows measured in JS, image height flexes), remaining products paginated (‹ 1 2 › beside the count). Mobile shows all products in normal flow."
+  ]
+}

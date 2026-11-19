@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+
+# vercel
+.vercel/
+
+# QA / audit output and screenshots
+qa/
+qa-*/
+qa-live/
+audit/
+local-preview.png
+*.png.tmp
+
+# originals kept out of git
+assets-original/
+
+# misc
+*.log
+*.tsbuildinfo
+.env*
+.DS_Store
+Thumbs.db
